@@ -1,0 +1,181 @@
+@media screen and (max-width: 767px) {
+    /* body {
+        background-color: lightgreen;
+    } */
+
+    .nav-message {
+        height: 30px;
+    }
+
+    .nav-message ul {
+        width: 100vw;
+    }
+
+    .nav-message ul li {
+        padding: 3px 1px
+    }
+
+    .nav-message ul li a {
+        padding: 6px 5px;
+        font-size: 10px;
+    }
+
+    .main-navbar ul {
+        width: 100%;
+    }
+
+    .main-navbar ul li {
+        list-style: none;
+        margin: 10px 0px;
+    }
+
+    .main-navbar ul li a {
+        padding: 3px 5px;
+        font-size: 10px;
+    }
+
+    .main-navbar .logo img {
+        height: 32px;
+        /* margin-top: 2px; */
+    }
+
+    .logo {
+        width: 10%;
+        margin: 0px auto;
+    }
+
+    .container-mid::before {
+        top: 8%;
+        /* height: 450px; */
+    }
+
+    .container-heading {
+        position: absolute;
+        top: 22%;
+        left: 0%;
+        width: 100%;
+        height: 600px;
+        /* background: rgb(255, 255, 255, 0.9); */
+        /* margin: 0px 20px; */
+    }
+
+    .container-heading h2 {
+        margin-top: 100px;
+        font-size: 20px;
+        margin-left: 27px;
+
+    }
+
+    .container-heading h1 {
+        width: 70%;
+        padding: 5px 0px;
+        font-size: 24px;
+        justify-content: center;
+        margin-left: 27px;
+
+    }
+
+    .container-box {
+        margin: 5px 27px;
+        border: 2px solid silver;
+        width: 70%;
+        padding: 7px 6px;
+        font-size: 10px;
+        display: inline-block;
+    }
+
+    .container-heading #day {
+        font-size: 19px;
+        margin-left: 27px;
+    }
+
+    .container-heading>p {
+        margin-top: 3px;
+        font-size: 14px;
+        margin-left: 27px;
+    }
+
+    /* main program */
+    .container-main::before {
+        height: 1600px;
+    }
+
+    #heading-main {
+        margin: 70px auto;
+        font-size: 25px;
+    }
+
+    #heading-main hr {
+        width: 5%;
+    }
+
+    .box {
+        top: 150px;
+        flex-direction: column;
+        gap: 1rem;
+        left: 0;
+
+    }
+
+    .card {
+        width: 95%;
+        color: white;
+    }
+
+    .card img {
+        width: 25%;
+    }
+
+    .card h1 {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        padding: 3px 1px;
+        font-size: 10px;
+    }
+
+    /* .container-last{
+        display: none;
+    } */
+    .container-last {
+        margin-top: 1600px;
+        height: 1500px;
+    }
+
+    .contanier-last-heading h1 {
+        margin-top: 43px;
+        font-size: 20px;
+    }
+
+    .last-cardbox {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .last-card1 {
+        width: 50%;
+    }
+
+    .last-card1 h2 {
+        margin: 5px 0px;
+        font-size: 18px;
+    }
+
+    .last-card1 p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .last-logo img {
+        margin: 100px 20px;
+        width: 80px;
+    }
+
+    .last-paragraph p {
+        width: 80%;
+        margin: 75px 29px;
+    }
+}
